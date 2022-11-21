@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 
-# Đọc dữ liệu
+# Đọc dữ liệu123
 
 data=pd.read_csv("healthcare-dataset-stroke-data.csv" )
 x = data.iloc[:,1:11]
