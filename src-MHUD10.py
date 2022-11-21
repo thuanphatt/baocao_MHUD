@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 # Đọc dữ liệu
 
-data=pd.read_csv("healthcare-dataset-stroke-data.csv" )
+data=pd.read_csv("full_data.csv" )
 x = data.iloc[:,1:11]
 y = data.stroke
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=1/3.0, random_state=100)
